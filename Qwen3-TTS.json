@@ -1,0 +1,39 @@
+{
+  "2": {
+    "inputs": {
+      "text": "Seneca can cure your thirst trap addiction,  \n\nHe shunned debauchery, staying faithful to his wife, denouncing lust.\n\nLust is weakness. \n\nModern men drown in thirst traps, \n\nThey trade their hunter instinct for living in spectator mode, resigning their  existence to endless observation,  \n\nAddictions to thirst traps and E-Girls are fuelled by Lust, which toppled titans like Messalina,  \n\nEmpress Messalina possessed supreme status but surrendered her mind to a public scandal.\n\nShe staged a fake wedding to her lover while her husband occupied the throne.\n\nShe feasted at a bigamous banquet until the centurions arrived to end her life\n\nSeneca's iron resolve eclipsed Messalina's ruin, embodying disciplined virtue, \n \n\"\"Lust is a low and petty thing, a mark of a weak mind.\"\"  \n\nKill your thirst trap addiction now.",
+      "instruct": "Mature British male voice, 55 years old. Received Pronunciation. Deep baritone. Delivery is declarative, factual and almost deadpan. Begin with immediate authority and firm onset. End every sentence with a distinct downward inflection. Metronomic pacing. Unvarying speed throughout. Uniform rhythm like a machine. No acceleration or deceleration. Calm, authoritative, and fluid.",
+      "model_choice": "1.7B",
+      "device": "auto",
+      "precision": "bf16",
+      "language": "English",
+      "seed": 339770617835794,
+      "max_new_tokens": 2048,
+      "top_p": 0.8,
+      "top_k": 20,
+      "temperature": 0.7,
+      "repetition_penalty": 1.05,
+      "attention": "sage_attn",
+      "unload_model_after_generate": false
+    },
+    "class_type": "FB_Qwen3TTSVoiceDesign",
+    "_meta": {
+      "title": "🎨 Qwen3-TTS VoiceDesign"
+    }
+  },
+  "3": {
+    "inputs": {
+      "filename_prefix": "audio/ComfyUI",
+      "quality": "128k",
+      "audioUI": "/api/view?filename=ComfyUI_00005_.mp3&type=output&subfolder=audio&rand=0.3944203842139232",
+      "audio": [
+        "2",
+        0
+      ]
+    },
+    "class_type": "SaveAudioMP3",
+    "_meta": {
+      "title": "Save Audio (MP3)"
+    }
+  }
+}
